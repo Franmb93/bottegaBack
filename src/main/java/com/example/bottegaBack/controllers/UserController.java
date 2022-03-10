@@ -6,7 +6,6 @@ import com.example.bottegaBack.DTO.UserDTO;
 import com.example.bottegaBack.entities.User;
 import com.example.bottegaBack.services.IUserService;
 
-import org.apache.catalina.connector.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
