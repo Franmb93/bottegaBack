@@ -21,7 +21,7 @@ public class ProjectServiceImplementation implements IProjectService{
     public List<ProjectDTO> findAll() {
         var projectList = dao.findAll();
         List<ProjectDTO> projectDtoList = new ArrayList<>();
-
+        
         projectList.stream().forEach(project -> 
             projectDtoList.add(new ProjectDTO(project.getName(), project.getDescription(), project.getUser()))
         );
